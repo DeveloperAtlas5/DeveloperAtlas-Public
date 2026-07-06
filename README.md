@@ -10,10 +10,10 @@ We are testing whether learners can open a pack, understand what to do next, and
 
 | Pack | Best for | Time | What you will test |
 |---|---|---:|---|
-| **[Beginner Preview](packs/beginner-preview/)** | Absolute beginners or anyone new to web projects | 10–20 min | Whether the starting instructions for HTML, CSS, and JavaScript feel clear |
+| **[Beginner](packs/beginner/)** | Absolute beginners or anyone new to web projects | 10–20 min | Whether the starting instructions for HTML, CSS, and JavaScript feel clear |
 | **[Rookie Pack](packs/rookie/)** | People with a basic Vue project, or people ready to build a simple to-do app | 30–60 min | One calm Vue mission: make a to-do list remember items after refresh |
-| **[Library Preview](packs/library-preview/)** | Anyone who wants quick explanations of programming terms | 10–20 min | Selected concept card examples and feedback on the format |
-| **[AI Collaboration Preview](packs/ai-collaboration-preview/)** | People using Cursor, Claude, ChatGPT, Copilot, or similar tools | 15–30 min | Prompt guardrails that help AI explain, suggest, patch, confirm, park, or refuse |
+| **[Library](packs/library/)** | Anyone who wants quick explanations of programming terms | 10–20 min | Selected concept card examples and feedback on the format |
+| **[AI Collaboration](packs/ai-collaboration/)** | People using Cursor, Claude, ChatGPT, Copilot, or similar tools | 15–30 min | Prompt guardrails that help AI explain, suggest, patch, confirm, park, or refuse |
 
 **Start with one path only.**  
 You do not need to test everything.

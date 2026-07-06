@@ -18,3 +18,4 @@ Use these when a mission uses a word you want to understand quickly.
 - [AI Explain vs Patch](cards/ai-explain-vs-patch.md) — AI Collaboration
 - [Scope Creep](cards/scope-creep.md) — AI Collaboration
 - [Small Patch](cards/small-patch.md) — AI Collaboration
+- [AI Human Preference & Readability Standard](cards/ai-human-preference-readability-standard.md) — AI Collaboration

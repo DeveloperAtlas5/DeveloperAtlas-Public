@@ -51,6 +51,24 @@ After trying a pack, please share:
 
 Use the templates in the [`feedback/`](feedback/) folder or open a GitHub Issue / Discussion.
 
+## Licensing & Intellectual Property
+
+The public test packs in this repository are released under the MIT License.
+
+This applies only to the contents of this public repository.
+
+The full Developer Atlas system remains proprietary and is not open-sourced, including:
+
+- the mission generator
+- the complete Canon library
+- internal validators
+- private tooling
+- internal product strategy and research notes
+
+You may use, copy, modify, and share the public test packs under the terms of the MIT License.
+
+Commercial licensing for the full private Developer Atlas system requires separate permission.
+
 ## Important Notes
 
 - These are **early evaluation and personal testing packs only**.

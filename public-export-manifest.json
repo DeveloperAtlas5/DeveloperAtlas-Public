@@ -1,7 +1,7 @@
 {
   "name": "DeveloperAtlas-Public",
   "source": "DeveloperAtlas private monorepo curated export",
-  "generatedAt": "2026-07-09T00:40:02.486Z",
-  "copiedFiles": 37,
+  "generatedAt": "2026-07-09T08:32:31.293Z",
+  "copiedFiles": 40,
   "rule": "Public export only. Do not include private strategy, full Flow Navigator source, or personal/internal files."
 }

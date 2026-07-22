@@ -28,7 +28,7 @@ for (const file of allowed) {
   if (!changed.includes(file)) failures.push(`Allowed file is absent from patch: ${file}`)
 }
 
-const checkedDecisions = [...decision.matchAll(/^- \[x\] (Accept|Revise|Reject)$/gmi)].map((m) => m[1])
+const checkedDecisions = [...decision.matchAll(/^- \[x\] (Accept|Revise|Reject)$/gmi)].map((match) => match[1])
 if (checkedDecisions.length !== 1) {
   failures.push(`Decision record must select exactly one outcome; found ${checkedDecisions.length}.`)
 }
@@ -47,6 +47,8 @@ if (selected === 'revise' || selected === 'reject') {
 }
 
 const parked = section(instruction, 'Parked ideas')
+if (!parked.trim()) failures.push('Instruction must declare a non-empty Parked ideas section.')
+
 const parkedTerms = ['color', 'polling', 'api endpoint', 'dashboard', 'deployment integration']
 for (const term of parkedTerms) {
   if (parked.toLowerCase().includes(term) && addedLines.toLowerCase().includes(term)) {
@@ -76,9 +78,14 @@ function read(filename) {
 }
 
 function section(markdown, heading) {
-  const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const match = markdown.match(new RegExp(`^##\\s+${escaped}\\s*$([\\s\\S]*?)(?=^##\\s+|\\Z)`, 'mi'))
-  return match?.[1] ?? ''
+  const lines = markdown.split(/\r?\n/)
+  const expectedHeading = `## ${heading}`.toLowerCase()
+  const start = lines.findIndex((line) => line.trim().toLowerCase() === expectedHeading)
+  if (start === -1) return ''
+
+  const relativeEnd = lines.slice(start + 1).findIndex((line) => /^##\s+/.test(line.trim()))
+  const end = relativeEnd === -1 ? lines.length : start + 1 + relativeEnd
+  return lines.slice(start + 1, end).join('\n')
 }
 
 function extractBacktickList(markdown) {

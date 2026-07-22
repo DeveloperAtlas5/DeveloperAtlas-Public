@@ -15,7 +15,7 @@ A teammate asks:
 > Improve the status page so a reviewer knows the application is ready for a human check.
 
 The starting code has one controller-provided label and one Blade view. Open
-[`STARTING_POINT.md`](control/examples/laravel-status-label/STARTING_POINT.md) before continuing.
+[`STARTING_POINT.md`](../../control/examples/laravel-status-label/STARTING_POINT.md) before continuing.
 
 ## Minute 0–2: state the goal
 
@@ -28,8 +28,8 @@ That sentence describes the desired outcome, but it does not yet control the imp
 
 ## Minute 2–5: define the boundaries
 
-Open the blank [`Change Contract template`](control/CHANGE_CONTRACT_TEMPLATE.md), then compare it
-with the completed [`Atlas instruction`](control/examples/laravel-status-label/ATLAS_INSTRUCTION.md).
+Open the blank [`Change Contract template`](../../control/CHANGE_CONTRACT_TEMPLATE.md), then compare it
+with the completed [`Atlas instruction`](../../control/examples/laravel-status-label/ATLAS_INSTRUCTION.md).
 
 The worked contract allows only:
 
@@ -41,8 +41,8 @@ Suggestions outside that boundary must be parked rather than implemented.
 
 ## Minute 5–7: compare the prompts
 
-Read the [`baseline prompt`](control/examples/laravel-status-label/BASELINE_PROMPT.md) and the
-[`Atlas instruction`](control/examples/laravel-status-label/ATLAS_INSTRUCTION.md).
+Read the [`baseline prompt`](../../control/examples/laravel-status-label/BASELINE_PROMPT.md) and the
+[`Atlas instruction`](../../control/examples/laravel-status-label/ATLAS_INSTRUCTION.md).
 
 | Prompt property | Baseline | Atlas-controlled |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ market outcomes.
 
 ## Minute 7–10: inspect the proposed change
 
-Open [`PROPOSED_PATCH.diff`](control/examples/laravel-status-label/PROPOSED_PATCH.diff). Review it as
+Open [`PROPOSED_PATCH.diff`](../../control/examples/laravel-status-label/PROPOSED_PATCH.diff). Review it as
 if an AI coding tool supplied it.
 
 Ask:
@@ -73,11 +73,11 @@ The proposed patch is intentionally small. Small does not mean accepted; it stil
 
 ## Minute 10–13: review evidence
 
-Use [`VERIFICATION_CHECKLIST.md`](control/examples/laravel-status-label/VERIFICATION_CHECKLIST.md).
+Use [`VERIFICATION_CHECKLIST.md`](../../control/examples/laravel-status-label/VERIFICATION_CHECKLIST.md).
 The repository-only exercise lets you verify scope and readability, but it does not contain a real
 Laravel runtime. Therefore `php artisan test` is **not run** here.
 
-The completed [`SAMPLE_EVIDENCE.md`](control/examples/laravel-status-label/SAMPLE_EVIDENCE.md)
+The completed [`SAMPLE_EVIDENCE.md`](../../control/examples/laravel-status-label/SAMPLE_EVIDENCE.md)
 records that limitation instead of inventing a passing result.
 
 ## Minute 13–15: make the human decision
@@ -88,8 +88,8 @@ Choose one:
 - **Revise** when the change is promising but required evidence or behavior is incomplete.
 - **Reject** when the change violates the goal, boundaries, or trust requirements.
 
-Fill in the [`Decision Record template`](control/DECISION_RECORD_TEMPLATE.md), then compare your
-choice with the worked [`DECISION_RECORD.md`](control/examples/laravel-status-label/DECISION_RECORD.md).
+Fill in the [`Decision Record template`](../../control/DECISION_RECORD_TEMPLATE.md), then compare your
+choice with the worked [`DECISION_RECORD.md`](../../control/examples/laravel-status-label/DECISION_RECORD.md).
 The worked example requests revision because runtime verification is absent. That is a complete,
 honest control-loop outcome—not a failure of the exercise.
 
@@ -100,6 +100,6 @@ scope, evidence, uncertainty, and human authority visible.
 
 Next:
 
-- [Review the complete worked example](control/examples/laravel-status-label/README.md).
-- [Try Control Lite in Navigator when preview access is available](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/START_TESTING.md).
-- [Explore the AI Collaboration Pack](packs/ai-collaboration/README.md).
+- [Review the complete worked example](../../control/examples/laravel-status-label/README.md).
+- [Try Control Lite in Navigator when preview access is available](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/docs/testing/START_TESTING.md).
+- [Explore the AI Collaboration Pack](../../packs/ai-collaboration/README.md).

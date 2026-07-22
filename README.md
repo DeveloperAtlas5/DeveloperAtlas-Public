@@ -2,7 +2,7 @@
 
 [![Public boundary](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/actions/workflows/public-boundary.yml/badge.svg)](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/actions/workflows/public-boundary.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-3f3f46.svg)](LICENSE)
-[![Status: public preview](https://img.shields.io/badge/status-public_preview-7257d8.svg)](ROADMAP.md)
+[![Status: public preview](https://img.shields.io/badge/status-public_preview-7257d8.svg)](docs/product/ROADMAP.md)
 [![Privacy: local first](https://img.shields.io/badge/privacy-local--first-167d6d.svg)](docs/public/privacy-and-safety.md)
 
 **Human-controlled AI development for Laravel and Vue: define scope, understand changes, review
@@ -12,8 +12,9 @@ evidence, and make the final decision.**
 
 ### [Build a local Change Contract with Control Lite →](control-lite/README.md)
 
-**[Try the guided 15-minute Control walkthrough](TRY_ATLAS.md)**  
-**[See current Navigator preview access](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/START_TESTING.md)**
+**[Try the guided 15-minute Control walkthrough](docs/getting-started/TRY_ATLAS.md)**  
+**[See current Navigator preview access](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/docs/testing/START_TESTING.md)**
+**[Browse all public documentation](docs/README.md)**
 
 > **Current status:** public preview and internal alpha. The software and control lifecycle are real
 > and extensively tested. Broad usability, retention, independent review, and paid demand remain
@@ -122,7 +123,7 @@ More images and their review status are listed in [`screenshots/README.md`](scre
 | Hosted Compendium | Not yet | Static hosting review in progress |
 
 The manual packaging workflow can prepare a checksum-listed exercise archive for maintainer review.
-See [`DOWNLOAD.md`](DOWNLOAD.md); no public release is implied until a human publishes one.
+See [`DOWNLOAD.md`](docs/getting-started/DOWNLOAD.md); no public release is implied until a human publishes one.
 
 ## Evidence and limitations
 
@@ -141,7 +142,7 @@ target; it does **not** mean final certification.
 This supports technical credibility and formative usefulness. It does not prove product-market fit,
 retention, willingness to pay, universal correctness, or production safety. Read
 [`testing-status.md`](docs/public/testing-status.md),
-[`known-limitations.md`](docs/public/known-limitations.md), and the public [`FAQ`](FAQ.md).
+[`known-limitations.md`](docs/public/known-limitations.md), and the public [`FAQ`](docs/product/FAQ.md).
 
 ## Supporting work
 
@@ -168,19 +169,19 @@ the primary product demonstration.
 - Runnable browser teaching code is tested against HTML-like user input and may not assign user data
   through `innerHTML`.
 
-Read [`SECURITY.md`](SECURITY.md) and
+Read [`SECURITY.md`](.github/SECURITY.md) and
 [`privacy-and-safety.md`](docs/public/privacy-and-safety.md).
 
 ## Roadmap and feedback
 
 The immediate public focus is to validate Control Lite in a clean profile, repeat the external-alpha
 workflow, publish a safe preview artifact, and measure whether the control loop helps real reviewers.
-The public [`ROADMAP.md`](ROADMAP.md) keeps supporting research separate.
+The public [`ROADMAP.md`](docs/product/ROADMAP.md) keeps supporting research separate.
 
 Precise feedback is welcome for reproducible bugs, unclear first steps, accessibility barriers,
 privacy concerns, or workflows that would help people retain control. See
-[`CONTRIBUTING.md`](CONTRIBUTING.md) and the public
-[`FEEDBACK.md`](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/FEEDBACK.md).
+[`CONTRIBUTING.md`](.github/CONTRIBUTING.md) and the public
+[`FEEDBACK.md`](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/docs/testing/FEEDBACK.md).
 
 ## License and provenance
 
@@ -189,5 +190,5 @@ private Developer Atlas monorepo and unreleased product source are separate and 
 this repository.
 
 Development is materially AI-assisted and human-directed. Automated verification is kept separate
-from independent human review and final acceptance. See [`PROVENANCE.md`](PROVENANCE.md) and the
+from independent human review and final acceptance. See [`PROVENANCE.md`](docs/governance/PROVENANCE.md) and the
 outcome-focused [`CHANGELOG.md`](CHANGELOG.md).

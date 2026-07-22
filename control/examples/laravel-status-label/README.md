@@ -1,6 +1,6 @@
 # Worked example: bound one Laravel status-page change
 
-This is the complete artifact set used by the [15-minute Atlas exercise](../../../TRY_ATLAS.md).
+This is the complete artifact set used by the [15-minute Atlas exercise](../../../docs/getting-started/TRY_ATLAS.md).
 
 | Artifact | Purpose |
 | --- | --- |

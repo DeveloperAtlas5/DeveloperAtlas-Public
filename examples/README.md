@@ -1,7 +1,7 @@
 # Runnable examples
 
 These examples are supporting learning material. Start with the
-[15-minute Atlas Control exercise](../TRY_ATLAS.md) for the flagship product demonstration.
+[15-minute Atlas Control exercise](../docs/getting-started/TRY_ATLAS.md) for the flagship product demonstration.
 
 | Example | Run method | Concepts | Related mission | Security notes |
 | --- | --- | --- | --- | --- |

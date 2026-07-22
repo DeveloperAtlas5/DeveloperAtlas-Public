@@ -9,7 +9,7 @@ human decisions.
 
 ## Start
 
-1. Complete the [15-minute Atlas Control exercise](../../TRY_ATLAS.md).
+1. Complete the [15-minute Atlas Control exercise](../../docs/getting-started/TRY_ATLAS.md).
 2. Open the public [pack start guide](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/packs/ai-collaboration/START_HERE.md).
 3. Keep the public [prompt templates](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/packs/ai-collaboration/prompt-templates.md) beside your next small change.
 

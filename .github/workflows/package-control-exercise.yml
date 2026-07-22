@@ -16,13 +16,13 @@ jobs:
           git archive --format=zip
           --output developer-atlas-control-exercise-v0.1.0.zip
           HEAD
-          TRY_ATLAS.md
+          docs/getting-started/TRY_ATLAS.md
           control
           examples/browser-list-starter
           README.md
-          FAQ.md
+          docs/product/FAQ.md
           LICENSE
-          PROVENANCE.md
+          docs/governance/PROVENANCE.md
       - name: Write checksum
         run: sha256sum developer-atlas-control-exercise-v0.1.0.zip > SHA256SUMS.txt
       - uses: actions/upload-artifact@v4

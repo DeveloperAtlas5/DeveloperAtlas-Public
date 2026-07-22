@@ -1,7 +1,7 @@
 # Missions
 
 Choose a language first. These missions support the Atlas product; the flagship product demonstration
-is the [15-minute Control exercise](../../TRY_ATLAS.md).
+is the [15-minute Control exercise](../../docs/getting-started/TRY_ATLAS.md).
 
 - [English](#english)
 - [Nederlands](#nederlands)

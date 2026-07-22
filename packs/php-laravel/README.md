@@ -22,7 +22,7 @@ complete Laravel course or proof that a project is production-ready.
 
 ## Next
 
-Complete the [15-minute Laravel Control exercise](../../TRY_ATLAS.md), which turns the same flow into
+Complete the [15-minute Laravel Control exercise](../../docs/getting-started/TRY_ATLAS.md), which turns the same flow into
 a bounded AI-assisted change and an explicit human decision.
 
 ## Help

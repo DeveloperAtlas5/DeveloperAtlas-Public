@@ -21,9 +21,9 @@ handler updates text. The goal is understanding, not visual polish.
 ## Next
 
 Continue to the [Rookie DOM path](../rookie/README.md), or return to the
-[15-minute Atlas Control exercise](../../TRY_ATLAS.md) to see how the product bounds an AI change.
+[15-minute Atlas Control exercise](../../docs/getting-started/TRY_ATLAS.md) to see how the product bounds an AI change.
 
 ## Help
 
 Each mission contains collapsible recovery guidance. For a reproducible problem, use the public
-[feedback route](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/FEEDBACK.md).
+[feedback route](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/docs/testing/FEEDBACK.md).

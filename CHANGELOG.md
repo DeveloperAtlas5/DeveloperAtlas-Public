@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Organized public documentation under `docs/`, moved recognized community files under `.github/`, moved export records under `config/`, and updated navigation, validation, packaging, and ownership paths.
 - Added one self-contained 15-minute Laravel Control exercise with a Change Contract, proposed diff,
   evidence checklist, and completed human revision decision.
 - Reordered the public entry experience around one product demonstration before learning and testing

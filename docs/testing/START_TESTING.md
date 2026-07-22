@@ -5,7 +5,7 @@ change first.
 
 ## Primary: 15-minute Control exercise
 
-[Start the Laravel control loop](TRY_ATLAS.md).
+[Start the Laravel control loop](../getting-started/TRY_ATLAS.md).
 
 You will define scope, compare prompts, inspect a proposed diff, review incomplete evidence, and make
 an explicit human decision. No installation or AI account is required.
@@ -18,11 +18,11 @@ until clean-profile installation and release checks are complete.
 
 ## Supporting learning paths
 
-- [Beginner web foundations](packs/beginner/README.md)
-- [Rookie browser application](packs/rookie/README.md)
-- [PHP/Laravel bridge](packs/php-laravel/README.md)
-- [Knowledge Node samples](packs/library/README.md)
-- [AI Collaboration Pack](packs/ai-collaboration/README.md)
+- [Beginner web foundations](../../packs/beginner/README.md)
+- [Rookie browser application](../../packs/rookie/README.md)
+- [PHP/Laravel bridge](../../packs/php-laravel/README.md)
+- [Knowledge Node samples](../../packs/library/README.md)
+- [AI Collaboration Pack](../../packs/ai-collaboration/README.md)
 
 These paths support onboarding and research; they are not five competing product entry points.
 

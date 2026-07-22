@@ -25,9 +25,9 @@ pending independent human review. “Gold” names an internal teaching-depth ta
 ## Next
 
 Return to the code task that brought you here, or use the
-[Control exercise](../../TRY_ATLAS.md) to apply a concept inside a bounded change.
+[Control exercise](../../docs/getting-started/TRY_ATLAS.md) to apply a concept inside a bounded change.
 
 ## Help
 
 Known limitations are linked from every node. Report unclear or unsupported claims through the
-public [feedback route](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/FEEDBACK.md).
+public [feedback route](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/docs/testing/FEEDBACK.md).

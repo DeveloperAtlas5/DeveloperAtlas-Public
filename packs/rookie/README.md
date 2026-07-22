@@ -27,4 +27,4 @@ complete; translation coverage is visible in the [mission index](../../content/m
 ## Help
 
 Use the mission recovery card before expanding the feature. Report reproducible issues through the
-public [feedback route](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/FEEDBACK.md).
+public [feedback route](https://github.com/DeveloperAtlas5/DeveloperAtlas-Public/blob/main/docs/testing/FEEDBACK.md).

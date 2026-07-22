@@ -8,7 +8,12 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const failures = []
 const textExtensions = new Set(['.css', '.csv', '.diff', '.html', '.js', '.json', '.md', '.mjs', '.php', '.txt', '.yml', '.yaml'])
 const requiredFiles = [
-  'TRY_ATLAS.md',
+  'docs/getting-started/TRY_ATLAS.md',
+  '.github/CONTRIBUTING.md',
+  '.github/SECURITY.md',
+  'docs/README.md',
+  'docs/testing/START_TESTING.md',
+  'docs/testing/FEEDBACK.md',
   'control/CHANGE_CONTRACT_TEMPLATE.md',
   'control/DECISION_RECORD_TEMPLATE.md',
   'control/examples/laravel-status-label/COMPLETED_EXAMPLE.md',

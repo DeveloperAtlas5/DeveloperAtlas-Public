@@ -2,7 +2,7 @@
 
 Complete one path before answering:
 
-- the [15-minute Control exercise](TRY_ATLAS.md); or
+- the [15-minute Control exercise](../getting-started/TRY_ATLAS.md); or
 - an explicitly supplied Navigator preview smoke test.
 
 Then open a GitHub issue or Discussion and include:
@@ -14,6 +14,6 @@ Then open a GitHub issue or Discussion and include:
 5. Whether the problem concerned scope, understanding, evidence, trust, or navigation.
 
 Do not post private source code, credentials, personal data, or unannounced security exploit details.
-For a potential vulnerability, follow [`SECURITY.md`](SECURITY.md).
+For a potential vulnerability, follow [`SECURITY.md`](../../.github/SECURITY.md).
 
-Facilitators can use the separate [pack evaluation questions](docs/testing/pack-evaluation-questions.md).
+Facilitators can use the separate [pack evaluation questions](pack-evaluation-questions.md).

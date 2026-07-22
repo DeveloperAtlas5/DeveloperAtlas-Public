@@ -21,10 +21,10 @@ give useful feedback
 
 | If you are... | Start with... |
 |---|---|
-| New to web development | [`packs/beginner/`](packs/beginner/) |
-| Ready for one small Vue mission | [`packs/rookie/`](packs/rookie/) |
-| Looking for quick programming explanations | [`packs/library/`](packs/library/) |
-| Using AI coding tools | [`packs/ai-collaboration/`](packs/ai-collaboration/) |
+| New to web development | [`packs/beginner/`](../../../packs/beginner/) |
+| Ready for one small Vue mission | [`packs/rookie/`](../../../packs/rookie/) |
+| Looking for quick programming explanations | [`packs/library/`](../../../packs/library/) |
+| Using AI coding tools | [`packs/ai-collaboration/`](../../../packs/ai-collaboration/) |
 
 ## Important
 
@@ -49,7 +49,7 @@ Please tell us:
 Use:
 
 ```txt
-feedback/test-round-01-feedback-template.md
+../../../feedback/test-round-01-feedback-template.md
 ```
 
 Or open a GitHub Issue using one of the feedback templates.
